@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-practice-landingzone"
-  location = "Australia East"
+  name     = "rgs-practice-landingzone"
+  location = "Australia West"
 }
 
 resource "azurerm_virtual_network" "vnet" {
